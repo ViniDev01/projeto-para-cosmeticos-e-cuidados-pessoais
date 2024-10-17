@@ -1,0 +1,329 @@
+@media (max-width: 1200px){
+    .banner-inicial{
+        height: 600px;
+    }
+    
+    .banner-single {
+        height: 500px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 1000px){
+    .banner-inicial{
+        height: 600px;
+    }
+    
+    .banner-single {
+        height: 500px;
+        
+    }
+
+    /*---------FIM DA ESTILIZAÇÃO BANNER INICIAL----------*/
+
+    .newsletter h1 {
+        font-size: 1.5rem;
+    }
+
+    .simple-set{
+        width: 30%;
+    }
+
+    .simple-set span{
+        font-size: 0.8rem;
+    }
+
+    .simple-set-submit{
+        width: 15%;
+    }
+    /*---------FIM DA ESTILIZAÇÃO DA SECTION NEWSLETTER--------*/
+}
+
+
+
+@media (max-width: 770px){
+
+    .banner-inicial{
+        height: 500px;
+    }
+    
+    .banner-single {
+        height: 400px;
+        
+    }
+
+    .indicators {
+        top: 90%;
+    }
+    /*---------FIM DA ESTILIZAÇÃO BANNER INICIAL----------*/
+    
+    .titulo{
+        font-size: 25px;
+    }
+    
+    .afiliados{
+        padding-top: 40px;
+        display: inline-block;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .afiliados img{
+        width: 40%;
+        border-radius: 8px;
+    }
+    /*-------FIM DA ESTILIZAÇÃO DA SECTION CONTAINER AFILIADOS--------*/
+
+    .newsletter h1 {
+        padding: 0 2%;
+        font-size: 1.5rem;
+    }
+    
+    .newsletter-form{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .simple-set{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .simple-set-submit{
+        width: 40%;
+        height: 40px;
+    }
+
+    .simple-set-submit input[value=Cadastre-se] {
+        font-size: 1.1rem;
+        line-height: 40px;
+    }
+    /*---------FIM DA ESTILIZAÇÃO DA SECTION NEWSLETTER--------*/
+
+    .contatos-secao {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /*---------FIM DA ESTILIZAÇÃO DA SECTION CONTATOS--------*/
+}
+
+
+
+
+@media (max-width: 590px){
+
+    .banner-inicial{
+        height: 400px;
+    }
+    
+    .banner-single {
+        height: 300px;
+        
+    }
+
+    .indicators {
+        top: 90%;
+    }
+
+    .container-afiliados{
+        padding: 20px 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .afiliados{
+        padding-top: 20px;
+    }
+    
+
+    .corpo-categorias{
+        padding: 20px 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linha{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 5px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 490px){
+
+    .remover{
+        display: none;
+    }
+
+    .banner-inicial{
+        height: 300px;
+    }
+    
+    .banner-single {
+        height: 200px;
+        
+    }
+
+    .indicators {
+        top: 90%;
+    }
+
+    .indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #b10136;
+        cursor: pointer;
+    }
+
+    .ver-tudo{
+        display: none;
+    }
+
+    .ver-tudo1{
+        margin: 20px 0;
+        display: flex;
+    }
+
+    .col-1{
+        flex-basis: 100%;
+        max-width: 300px;
+        border-bottom: 1px solid #00000059;
+    }
+
+    .col-1 h4{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+    p.descricao-produto{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .col-1 p {
+        text-align: center;
+        font-weight: normal;
+        font-size: 1.1rem;
+    }
+    
+    .col-1:hover{
+        border:none;
+        border-bottom: 1px solid #00000059;
+    }
+
+
+    .simple-set-submit input[value=Cadastre-se] {
+        font-size: 0.9rem;
+        line-height: 40px;
+    }
+
+    .linha2{
+        padding: 120px 2% 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+@media (max-width: 370px){
+    .cart{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        max-width: 360px;
+        width: 100%;
+        min-height: 100vh;
+        padding: 20px;
+        background-color: #f8f5f5;
+        box-shadow: -2px 0 4px #00000085;
+        transition: 0.3s;
+    }
+
+    .cart-box{
+        display: grid;
+        grid-template-columns: 30% 50% 10%;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .cart-image{
+        max-width: 100px;
+        width: 100%;
+        height: 100px;
+        object-fit: contain;
+        padding: 0 5px 0 0;
+    }
+
+    .detalhe-box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    }
+
+    .cart-produto-title{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+@media (max-width: 305px){
+
+    .banner-inicial{
+        height: 250px;
+    }
+    
+    .banner-single {
+        height: 150px;
+        
+    }
+
+    .indicators {
+        top: 90%;
+    }
+
+    .indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #b10136;
+        cursor: pointer;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+}
+
