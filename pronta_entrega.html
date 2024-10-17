@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/40de13aa6f.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="favicon/k-removebg-preview.ico" type="image/x-icon">
+  <title>Pronta Entrega</title>  
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="home"><img class="logo" src="img/logos/logo-kaka.png" alt=""></a>
+      <img class="carrinho" src="img/carrinho-de-compras.png" alt="">
+
+      <div class="cart">
+        <h2 class="cart-title">Meu Carrinho</h2>
+
+        <div class="cart-content">
+          <!--Total-->
+        </div>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">R$ 0</div>
+        </div>
+        <button type="button" class="btn-finalize">Finalizar Compra</button>
+        <!--cart fechar-->
+        <img src="img/logos/cruz.png" id="close-cart">
+
+      </div>
+    </div>
+
+  </header>
+
+  <!-- Modal para inserir nome e apelido -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Informações de Contato</h2>
+      <form id="contactForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="apelido">Apelido:</label>
+        <input type="text" id="apelido" name="apelido" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="titulo">
+    <h1>Pronta Entrega</h1>
+    <div class="buttons">
+      <button id="todos" class="active">Todos</button>
+      <button id="natura">Natura</button>
+      <button id="boticario">OBoticário</button>
+      <button id="avon">Avon</button>
+      <button id="eudora">Eudora</button>
+      <button id="promocao">Promoções</button>
+    </div>
+  </div>
+
+  <div class="linha" id="linha"></div>
+
+  <button id="carregarMais">Carregar mais</button>
+
+  <section class="contatos cor" id="contato">
+    <h3>Contatos</h3>
+    <div class="contatos-secao">
+      <div class="cor-contato">
+        <a href="https://wa.me/5511989095045?text=" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+            <span>(11) 98909-5045</span>
+        </a>
+        
+    </div>
+    <div class="cor-contato">
+        <a href="https://www.instagram.com/kaka.cosmeticoss?utm_source=qr&igsh=MWp5NmM2NzNqOW16eg==" target="_blank">
+            <i class="fab fa-instagram"></i>
+            <span>kaka.cosmeticoss</span>
+        </a>
+    </div>
+    </div>
+</section>
+
+<div id="btnTop">
+    <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+<script src="js/jquery.js"></script>
+  <script src="js/function.js"></script>
+
+</body>
+
+</html>
