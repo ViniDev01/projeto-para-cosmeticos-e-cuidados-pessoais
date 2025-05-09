@@ -6,6 +6,6 @@
 			include('404.html');
 		}
 	}else{
-		include('home.php');
+		include('index.html');
 	}
 ?>
